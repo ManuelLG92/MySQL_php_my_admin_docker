@@ -5,8 +5,8 @@ services:
     image: mysql:latest
     container_name: db
     environment:
-      MYSQL_ROOT_PASSWORD: manuel
-      MYSQL_DATABASE: whitebox
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db_name
       MYSQL_USER: manuel
       MYSQL_PASSWORD: manuel
     ports:
